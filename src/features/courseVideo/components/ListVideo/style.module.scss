@@ -1,0 +1,121 @@
+.dotthree {
+    overflow: hidden;
+    display: -webkit - box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    &.line2 {
+        -webkit-line-clamp: 2;
+    }
+    &.line3 {
+        -webkit-line-clamp: 3;
+    }
+}
+
+.title-list-video {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+    padding: 0;
+    margin: 18px 27px 14px 27px;
+}
+
+.list {
+    box-sizing: border-box;
+
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+
+    padding: 0;
+    margin: 0 0 24px;
+
+    width: 100%;
+}
+
+.list-video {
+    padding: 0;
+    margin: 0;
+
+    max-height: 80vh;
+    overflow: overlay;
+
+    .item-video {
+        padding: 0 15px 0 0;
+        cursor: pointer;
+        display: block;
+        &:hover {
+            background: rgba(0, 85, 255, 0.06);
+        }
+
+        &.active {
+            background: rgba(0, 85, 255, 0.06);
+        }
+    }
+
+    .title-video {
+        margin: 10px 0 7px 0;
+        display: flex;
+        align-items: center;
+
+        .icon-check {
+            margin-left: 23px;
+        }
+        h3 {
+            margin: 0 0 0 7px;
+            padding: 0;
+            font-size: 16px;
+            line-height: 23px;
+            font-family: "Montserrat";
+            font-style: normal;
+        }
+
+        .icon-lock {
+            margin-left: auto;
+        }
+    }
+
+    .desc-video {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+
+        color: #000000;
+        margin-left: 47px;
+    }
+
+    .status-video {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 23px;
+
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+
+        margin: 14px 0 6px 47px;
+
+        p {
+            color: #0049f6;
+            margin: 0;
+            padding: 0;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 23px;
+        }
+
+        .icon-star {
+            margin: 0 7px;
+        }
+    }
+}

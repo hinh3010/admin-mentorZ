@@ -1,0 +1,49 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    height: 95px;
+    width: 100%;
+
+    .header-form-search {
+        flex: 1;
+        padding: 24px 40px 24px 15px;
+        border-bottom: 2px solid #eeeeee;
+        .header-form-input {
+            padding-left: 14px;
+            display: flex;
+            align-items: center;
+            color: #fe9431;
+            justify-content: space-between;
+
+            input {
+                padding-left: 15px;
+                flex: 1;
+                max-width: 286px;
+                color: #fe9431;
+
+                font-family: "Arial";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 28px;
+
+                &::placeholder {
+                    color: #fe9431;
+                }
+            }
+
+            .action {
+                display: flex;
+                align-items: center;
+                img,
+                svg {
+                    margin: 0 10px;
+                    cursor: pointer;
+                    &:hover {
+                        color: blue;
+                    }
+                }
+            }
+        }
+    }
+}

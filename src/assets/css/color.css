@@ -1,0 +1,30 @@
+
+.text-green{
+    color: #01B53E !important;
+}
+.text-blue{
+    color: #0049F6 !important;
+}
+.text-yellow{
+    color: #FF7A00 !important;
+}
+.text-orange{
+    color:#CB7424 !important;
+}
+.text-social-zalo {
+    color: #025AE0 !important;
+}
+
+
+.bg-blue{
+    background-color: #0049F6 !important;
+}
+.bg-select{
+    background-color:#E0F6FD !important;
+}
+.bg-blue2{
+    background-color: #061B50;
+}
+.bg-input{
+    background-color: #E0F6FD !important;
+}

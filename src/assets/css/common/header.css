@@ -1,0 +1,38 @@
+.main-header__logOut {
+    position: absolute;
+    width: 140px;
+    left: -42px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 100;
+    transition: all 1s linear;
+}
+
+.main-header__logOut.hide {
+    display: none;
+}
+
+.main-header__logOut>div {
+    padding: 4px 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.main-header__logOut>div>* {
+    padding: 4px 4px;
+}
+
+.main-header__profile {
+    font-size: 13px
+}
+
+.main-header__logOut--btn {
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.text-error {
+    
+}

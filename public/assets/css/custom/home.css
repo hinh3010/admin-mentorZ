@@ -1,0 +1,6 @@
+.home__text-color {
+    background: linear-gradient(180deg, #FF7A00 0%, #FFB800 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

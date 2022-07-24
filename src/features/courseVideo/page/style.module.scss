@@ -1,0 +1,40 @@
+// @media (min-width: 1024px) {
+//     .lg\:flex {
+//         display: flex;
+//     }
+// }
+
+// @media (min-width: 1024px) {
+//     .lg\:hidden {
+//         display: none;
+//     }
+// }
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+// @media (min-width: 1530px) {
+//     .lg\:hidden {
+//         display: none;
+//     }
+// }
+
+@media (max-width: 1535px) {
+    .size1535\:hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 1535px) {
+    .size1535\:block {
+        display: block;
+    }
+}
